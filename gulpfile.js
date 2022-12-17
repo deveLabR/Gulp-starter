@@ -151,7 +151,7 @@ const watchFiles = () => {
 		}
 	});
 
-	watch('./src/scss/main.scss', styles);
+	watch('./src/scss/**/*', styles);
 	watch('./src/js/**/*.js', scripts);
 	watch('./src/*.html', html);
 	watch('./src/img/**/*.{jpg,jpeg,png,svg,webp}', images);
